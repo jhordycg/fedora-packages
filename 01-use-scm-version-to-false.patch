@@ -1,0 +1,11 @@
+--- qtile-0.18.1/setup.py	2021-09-16 12:37:58.000000000 -0500
++++ qtile-0.18.1/setup.patch.py	2021-11-27 00:20:31.263459379 -0500
+@@ -90,7 +90,7 @@
+ 
+ setup(
+     cmdclass={'install': CheckCairoXcb},
+-    use_scm_version=True,
++    use_scm_version=False,
+     cffi_modules=get_cffi_modules(),
+     include_package_data=True,
+ )

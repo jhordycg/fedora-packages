@@ -1,0 +1,5 @@
+qtile*/
+.build*
+noarch
+results*
+*.tar.gz

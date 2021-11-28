@@ -1,0 +1,10 @@
+--- qtile-0.18.1/setup.cfg	2021-11-27 01:01:19.664628913 -0500
++++ qtile-0.18.1/setup.patch.cfg	2021-11-27 00:59:44.428000000 -0500
+@@ -2,6 +2,7 @@
+ name = qtile
+ url = http://qtile.org
+ license = MIT
++version = 0.18.1
+ license_file = LICENSE
+ description = A pure-Python tiling window manager.
+ long_description = file: README.rst
